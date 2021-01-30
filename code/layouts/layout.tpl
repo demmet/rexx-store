@@ -50,7 +50,7 @@
 
                 {# If page is loaded from customization page on the admin, load all fonts #}
 
-                @import url('https://fonts.googleapis.com/css?family=Muli:400,700|Lato:400,700|Open+Sans:400,700|Lora:400,700|Slabo+27px|Playfair+Display:400,700|Droid+Sans:400,700|Montserrat:400,700|Nunito:400,700|Fredoka+One');
+                @import url('https://fonts.googleapis.com/css?family=Muli:400,700|Lato:400,700|Open+Sans:400,700|Lora:400,700|Slabo+27px|Playfair+Display:400,700|Droid+Sans:400,700|Montserrat:400,700|Nunito:400,700|Fredoka+One|Poppins:400,500');
 
             {% else %}
 

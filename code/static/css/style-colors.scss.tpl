@@ -1350,19 +1350,24 @@ input::-webkit-outer-spin-button{
   color: $main-background;
   fill: $main-background;
   background-color: $main-foreground;
-  .svg-icon-text,
+  .nav-container {
+    background: #fff;
+  }
   .nav-desktop-list > .nav-item > .nav-list-link,
-  .nav-desktop-list > .nav-item > .nav-item-container > .nav-list-link,
+  .nav-desktop-list > .nav-item > .nav-item-container > .nav-list-link {
+    color: #757575;
+  }
+  .nav-item-desktop > .nav-item-container .nav-list-arrow svg {
+    fill: #6D3BBC;
+  }
+  .svg-icon-text,
   .nav-desktop-list > .nav-item > .nav-item-container > .nav-list-arrow > i,
   .utilities-item svg{
-    color: $main-background;
-    fill: $main-background;
-    border-color: rgba($main-background, 0.2)
+    color: #fff;
+    fill: #fff;
   }
   .nav-desktop-list > .nav-item > .nav-item-container > .nav-list-link.selected,
   .nav-desktop-list > .nav-item > .nav-item-container > .nav-list-link.selected + .nav-list-arrow > i{
-    color: $main-background;
-    fill: $main-background;
     opacity: 0.6;
   }
   .form-control{

@@ -24,8 +24,8 @@
         </section>
     {% endif %}
 	<div class="container-fluid {% if settings.head_utility == 'searchbox' %}pb-3 pb-md-0{% endif %}">
-		<div class="{% if not settings.head_fix %}js-nav-logo-bar{% endif %} row no-gutters align-items-center">
-            <div class="col-lg-8 offset-lg-2 col-12">
+		<div class="col-lg-8 offset-lg-2 col-12">
+            <div class="{% if not settings.head_fix %}js-nav-logo-bar{% endif %} row no-gutters align-items-center">
                 <div class="col-2 text-left d-block d-md-none">
                 {% if settings.head_utility == 'searchbox' %}
                     <a href="#" class="js-modal-open utilities-link utilities-item" data-toggle="#nav-hamburger" aria-label="{{ 'Menú' | translate }}">
@@ -67,7 +67,7 @@
                 {% snipplet "navigation/navigation-categories.tpl" %}
             </div>
             {% endif %}
-            <div class="col text-center p-0 d-none d-md-block">{% snipplet "navigation/navigation.tpl" %}</div>
+            <div class="col text-center p-0 d-none d-md-block nav-container">{% snipplet "navigation/navigation.tpl" %}</div>
         </div>
 
 	</div>    

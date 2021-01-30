@@ -678,7 +678,7 @@ en "Search field"
 es_mx "Buscador"
 
 es "¿Qué estás buscando?"
-pt "O que você está buscando?"
+pt "O que você está procurando?"
 en "What are you looking for?"
 es_mx "¿Qué estás buscando?"
 
