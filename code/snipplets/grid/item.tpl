@@ -118,7 +118,7 @@
         {% if settings.quick_shop %}
             <div class="item-actions row justify-content-center{% if settings.theme_rounded %} m-0 mb-3{% endif %}">
                 {% if product.available and product.display_price %}
-                    <div class="col-8 col-md-6 pr-1">
+                    <div class="col-6">
                         {% if product.variations %}
                             <a href="#" class="js-item-buy-open item-buy-open d-block btn btn-primary btn-small" title="{{ 'Compra rápida de' | translate }} {{ product.name }}" aria-label="{{ 'Compra rápida de' | translate }} {{ product.name }}" >{{ 'Comprar' | translate }}</a>
                         {% else %}
@@ -149,9 +149,6 @@
                         {% endif %}
                     </div>
                 {% endif %}
-                <div class="{% if product.available and product.display_price %}col-4 col-md-6 pl-1{% else %}col-12 col-md-6{% endif %}">
-                    <a href="{{ product.url }}" title="{{ product.name }}" aria-label="{{ product.name }}" class="d-block btn btn-secondary btn-small">{% include "snipplets/svg/eye.tpl" with {svg_custom_class: "icon-inline svg-icon-primary"} %} <span class="{% if product.available and product.display_price %}d-none d-md-inline-block{% endif %}">{{ "Ver" | translate }}</span></a>
-                </div>
             </div>
         {% endif %}
         {% if settings.quick_shop or settings.product_color_variants %}

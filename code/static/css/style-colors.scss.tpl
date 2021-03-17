@@ -1715,11 +1715,14 @@ footer {
     &-description {
       border-bottom: 1px solid rgba($main-foreground, .2);
       @include prefix(transition, all 0.4s ease, webkit ms moz o);
+      background-color: white;
+      border-radius: 0 0 8px 8px;
     }
     &-product:hover {
       box-shadow: 0 1px 6px rgba($main-foreground, .2);
       .item-description {
         border-bottom: 1px solid transparent;
+        border-radius: 0px;
       }
     }
     &-rounded .item-actions {

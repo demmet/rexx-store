@@ -599,8 +599,9 @@ p{
 .slider-image {
   display: block;
   margin: 0 auto;
+  min-height: 228px;
   max-height: 450px;
-  max-width: 1920px;
+  object-fit: cover;
   width: 100%;
 }
 .swiper-pagination-fraction{
@@ -1129,10 +1130,9 @@ p{
 {# /* // Grid item */ #}
 
 .item {
-  margin-bottom: 20px;
-  padding: 15px;
+  margin: 10px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .item-rounded {
   margin-bottom: 40px;
@@ -1147,6 +1147,7 @@ p{
   position: relative;
   overflow: hidden;
   max-height: 390px;
+  border-radius: 8px 8px 0 0;
 }
 .item-image img{
   height: 100%;
@@ -1222,6 +1223,7 @@ p{
   z-index: 10;
 }
 .item-buy-open {
+  border-radius: 8px !important;
   display: inline-block;
   text-align: center;
   padding: 4px 8px 0 8px;
@@ -1238,6 +1240,10 @@ p{
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  padding-bottom: 20px;
+  background-color: white;
+  margin: 0;
+  border-radius: 0 0 8px 8px;
 }
 
 {# /* // Labels */ #}
@@ -1490,8 +1496,10 @@ p{
     position: absolute;
     width: 100%;
     height: 0;
-    margin-top: -15px !important;
-    border-radius: 0 0 20px 20px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    margin-right: 5px;
+    padding-bottom: 10px;
   }
 
   .item-rounded:hover .item-actions {
