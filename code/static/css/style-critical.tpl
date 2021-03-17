@@ -579,7 +579,7 @@ p{
 {# /* // Sliders */ #}
 
 .section-slider {
-  height: 60vh;
+  height: auto;
 }
 .nube-slider-home {
   height: 100%;
@@ -597,9 +597,11 @@ p{
   overflow: hidden;
 }
 .slider-image {
-  height: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 450px;
+  max-width: 1920px;
   width: 100%;
-  object-fit: cover;
 }
 .swiper-pagination-fraction{
   position: relative;

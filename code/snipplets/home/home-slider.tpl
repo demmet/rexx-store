@@ -1,4 +1,4 @@
-<section class="js-home-slider-container{% if not settings.slider or settings.slider is empty %} hidden{% else %}{% if not settings.slider_full %} mt-4{% endif %} mb-4{% endif %}" data-store="slider-main">
+<section class="js-home-slider-container{% if not settings.slider or settings.slider is empty %} hidden{% else %} mt-5 mb-5{% endif %}" data-store="slider-main">
 	<div class="container{% if settings.slider_full %}-fluid{% endif %}">
         <div class="row">
         	<div class="col section-slider{% if settings.slider_full %} p-0{% endif %}">
