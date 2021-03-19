@@ -1130,9 +1130,10 @@ p{
 {# /* // Grid item */ #}
 
 .item {
-  margin: 10px;
-  text-align: center;
   border-radius: 8px;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
 }
 .item-rounded {
   margin-bottom: 40px;

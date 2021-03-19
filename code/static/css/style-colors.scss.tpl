@@ -1164,6 +1164,9 @@ input::-webkit-outer-spin-button{
 {# /* // Grid item */ #}
 
 .item {
+  &-description {
+    background-color: white;
+  }
   @include prefix(transition, all 0.4s ease, webkit ms moz o);
   &-rounded {
     border: 1px solid rgba($main-foreground, .1);
