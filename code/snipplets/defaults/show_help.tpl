@@ -33,22 +33,25 @@
 </section>
 
 {# Informative banners that work as examples #}
-
-<section class="section-informative-banners">
-	<div class="container">
-		<div class="row">
-			<div class="js-informative-banners swiper-container">
-				<div class="swiper-wrapper">
-					{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_1': true} %}
-					{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_2': true} %}
-					{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_3': true} %}
-					{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_4': true} %}
+{#
+	<section class="section-informative-banners">
+		<div class="container">
+			<div class="row">
+				<div class="js-informative-banners swiper-container">
+					<div class="swiper-wrapper">
+						{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_1': true} %}
+						{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_2': true} %}
+						{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_3': true} %}
+						{% include 'snipplets/defaults/help_banner_services_item.tpl' with {'help_item_4': true} %}
+					</div>
+					<div class="js-informative-banners-pagination service-pagination swiper-pagination swiper-pagination-black"></div>
 				</div>
-				<div class="js-informative-banners-pagination service-pagination swiper-pagination swiper-pagination-black"></div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+#}
+
+{% snipplet 'custom/informative-banner.tpl' %}
 
 {# Categories banners that work as examples #}
 
