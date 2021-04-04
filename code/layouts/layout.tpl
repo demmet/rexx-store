@@ -175,7 +175,7 @@
 
         {# Footer #}
 
-        {% snipplet "footer/footer.tpl" %}
+        {#{% snipplet "footer/footer.tpl" %}#}
         {% snipplet "footer/custom/footer.tpl" %}
 
         {% if store.has_free_shipping_progress and (cart.free_shipping.cart_has_free_shipping or cart.free_shipping.min_price_free_shipping.min_price) %}

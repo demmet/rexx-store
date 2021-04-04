@@ -1643,14 +1643,24 @@ p{
 
 .footer-payment .payment-info .payment-block {
   align-items: flex-start;
+  color: #757575;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .footer-payment .payment-info .payment-block .payment-icons {
+  align-items: center;
   display: flex;
   flex-direction: row;
+}
+
+.footer-payment .payment-info .payment-block .payment-icons svg {
+  margin-left: 16px;
+}
+
+.footer-payment .payment-info .payment-block .payment-icons svg:first-child {
+  margin-left: 0;
 }
 
 .footer-about {
