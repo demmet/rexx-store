@@ -1101,28 +1101,6 @@ p{
   margin-top: 5px;
 }
 
-.custom-informative-banner {
-  align-items: center;
-  background-color: white;
-  border-radius: 8px;
-  display: flex;
-  height: 56px;
-  justify-content: space-between;
-  padding: 0 16px;
-  width: 100%;
-}
-
-.information-block {
-  align-items: center;
-  display: flex;
-}
-
-.information-text {
-  margin-left: 16px;
-  font-size: 14px;
-  color: #757575;
-}
-
 /*============================================================================
   #Product grid
 ==============================================================================*/
@@ -1580,5 +1558,44 @@ p{
 
 {# /* // Width */ #}
 .w-100{width:100%!important}.w-auto{width:auto!important}
+
+/*============================================================================
+  #Custom classes (by deme)
+==============================================================================*/
+
+.custom-informative-banner {
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100%;
+}
+
+.information-block {
+  align-items: center;
+  display: flex;
+}
+
+.information-text {
+  margin-left: 16px;
+  font-size: 14px;
+  color: #757575;
+}
+
+.social-links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+  justify-content: space-between;
+  width: 104px;
+}
+
+a:hover {
+  opacity: 0.6;
+}
 
 {% endraw %}

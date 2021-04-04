@@ -4,7 +4,7 @@
         <span class="ml-2">Compra 100% segura!<span>
     </div>
     <div class="d-flex align-items-center">
-        {% include "snipplets/svg/custom/whatsapp.tpl" %}
+        {% include "snipplets/svg/custom/social/whatsapp.tpl" %}
         <span class="ml-2">(41) 9 9524-1775</span>
     </div>
     <div class="d-flex align-items-center"><span>sac@rexx.com.br</span></div>
