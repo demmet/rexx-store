@@ -135,6 +135,7 @@
         {# Footer #}
 
         {% snipplet "footer/footer.tpl" %}
+        {% snipplet "footer/custom/footer.tpl" %}
         
         {# Javascript needed to footer logos lazyload #}
 

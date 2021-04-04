@@ -1,4 +1,4 @@
-<div class="social-links">
+<div class="social-links {{ custom_svg_fill }}">
   <a href="https://www.instagram.com/use.rexx" target="_blank">
     {% snipplet "svg/custom/social/instagram.tpl" %}
   </a>

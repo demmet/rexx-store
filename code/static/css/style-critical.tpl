@@ -1594,8 +1594,122 @@ p{
   width: 104px;
 }
 
-a:hover {
+.social-links.purple svg path {
+  fill: #6D3BBC;
+}
+
+.social-links a:hover {
   opacity: 0.6;
+}
+
+.custom-footer {
+  background-color: white;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.footer-covid {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+  padding-top: 16px;
+  min-height: 60px;
+}
+
+.footer-covid .covid-info {
+  background-color: #FFD100;
+  border-radius: 8px;
+  color: #757575;
+  font-size: 16px;
+  min-height: 60px;
+  padding: 9px 22px;
+}
+
+.footer-payment {
+  align-items: center;
+  display: flex;
+  background: white;
+  min-height: 128px;
+}
+
+.footer-payment .payment-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-payment .payment-info .payment-block {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-payment .payment-info .payment-block .payment-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-about {
+  align-items: center;
+  display: flex;
+  background-color: #E8E8EA;
+  font-size: 14px;
+  color: #757575;
+  min-height: 128px;
+}
+
+.footer-about .about-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-about .about-info .about-info-block {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-copyrights {
+  align-items: center;
+  display: flex;
+  background-color: #2E324A;
+  height: 106px;
+}
+
+.footer-copyrights .copyrights-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+.footer-copyrights span {
+  color: white;
+  font-size: 14px;
+}
+
+.footer-devs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-devs .dev-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dev-info .info-value {
+  font-size: 24px;
 }
 
 {% endraw %}
