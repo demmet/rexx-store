@@ -1,5 +1,4 @@
 <div class="footer-about">
-  {#
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-8 offset-lg-2">
@@ -20,10 +19,9 @@
             <span>Seg à sexta das 09h às 18h.</span>
           </div>
           
-          {#{% include "snipplets/social/custom.tpl" with {custom_svg_fill: 'purple'} %}#}
+          {% include "snipplets/social/custom.tpl" with {custom_svg_fill: 'purple'} %}
         </div>
       </div>
     </div>
   </div>
-  #}
 </div>
