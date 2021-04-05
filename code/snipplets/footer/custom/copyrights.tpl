@@ -21,7 +21,7 @@
               </div>
               <div class="dev-info">
                 <span class="info-label">frontend developer</span>
-                <a href="www.linkedin.com/in/dememanica"
+                <a href="https://www.linkedin.com/in/demetriusmanica/"
                    target="_blank">
                   <span class="info-value">demétrius</span>
                 </a>
