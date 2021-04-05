@@ -1604,7 +1604,7 @@ p{
 
 .custom-footer {
   background-color: white;
-  margin-top: 0;
+  margin-top: -20px;
   padding-top: 0;
 }
 
