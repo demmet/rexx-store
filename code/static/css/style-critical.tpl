@@ -1568,7 +1568,8 @@ p{
   background-color: white;
   border-radius: 8px;
   display: flex;
-  height: 56px;
+  flex-wrap: wrap;
+  min-height: 56px;
   justify-content: space-between;
   padding: 0 16px;
   width: 100%;
@@ -1653,6 +1654,7 @@ p{
   align-items: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer-payment .payment-info .payment-block .payment-icons svg {
@@ -1676,6 +1678,7 @@ p{
   align-items: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -1690,7 +1693,7 @@ p{
   align-items: center;
   display: flex;
   background-color: #2E324A;
-  height: 106px;
+  min-height: 106px;
 }
 
 .footer-copyrights .copyrights-info {
@@ -1708,6 +1711,7 @@ p{
 .footer-devs {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -1720,6 +1724,7 @@ p{
 
 .dev-info .info-value {
   font-size: 24px;
+  font-weight: 600;
 }
 
 {% endraw %}

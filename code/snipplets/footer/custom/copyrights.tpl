@@ -14,11 +14,17 @@
               </div>
               <div class="dev-info">
                 <span class="info-label">user interface</span>
-                <span class="info-value">leonardo</span>
+                <a href="https://www.linkedin.com/in/designardo/"
+                   target="_blank">
+                  <span class="info-value">leonardo</span>
+                </a>
               </div>
               <div class="dev-info">
                 <span class="info-label">frontend developer</span>
-                <span class="info-value">deme</span>
+                <a href="www.linkedin.com/in/dememanica"
+                   target="_blank">
+                  <span class="info-value">demétrius</span>
+                </a>
               </div>
             </div>
           </div>
